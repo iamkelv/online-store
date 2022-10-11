@@ -1,0 +1,19 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@400;700&display=swap');
+
+*,
+*::after,
+*::before {
+  box-sizing: border-box;
+  top: 0
+}
+
+html {
+  font-family: "Open Sans", sans-serif
+}
+
+body {
+  margin: 0;
+  color: rgb(117, 117, 125);
+
+  background-color: rgb(242, 243, 248);
+}

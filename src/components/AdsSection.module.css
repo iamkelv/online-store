@@ -1,0 +1,23 @@
+.container {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    margin-top: 2rem;
+    gap: 1rem;
+}
+
+.ads {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    max-width: 100%;
+}
+
+.ads img {
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+}

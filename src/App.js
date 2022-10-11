@@ -11,12 +11,10 @@ import {
   Container,
   IconButton,
 } from "@mui/material";
-import SimpleBackdrop from "./components/ui/Modal";
 
 function App() {
   return (
     <React.Fragment>
-      <SimpleBackdrop />
       <Routes>
         <Route path="*" element={<h1>Page not found</h1>} />
         <Route path="/" element={<Home />} />
